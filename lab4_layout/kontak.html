@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<style>
+        body {
+	font-family: Courier, Monospace;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+main {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+form label {
+	display:block; 
+	margin-top:20px; 
+	font-size:1.2em; 
+	color:#444; 
+}
+
+form input[type=text], form input[type=email], form textarea {
+	width:100%; 
+	padding:10px;  
+	border-radius:5px; 
+	border:none; 
+	margin-top:-5px; 
+	line-height:normal; 
+	font-size:1.2em; 
+}
+
+form input[type=submit] {
+	background-color:#333; 
+	color:#fff; 
+	border:none; 
+	padding:10px 20px; 
+	border-radius:5px; 
+	cursor:pointer; 
+	margin-top:-5px; 
+	font-size:1.2em; 
+}
+    </style>
+</head>
+<body>
+	<header>
+		<h1>Contact Us</h1>
+	</header>
+
+	<main>
+        <form action="#" method="post">
+            <img src="c:\Users\Asus\Downloads\Notebook Of Contacts free icons designed by Freepik.png" width="100" alt="Gambar">
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required /><br />
+
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br />
+
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" required></textarea><br />
+
+            <input type="submit" value="Send Message" />
+        </form> 
+    </main>
+</body> 
+</html>
